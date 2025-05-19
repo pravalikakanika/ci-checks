@@ -33,4 +33,4 @@ jobs:
         run: mypy attendance notification
 
       - name: Run Pytest
-        run: pytest
+        run: PYTHONPATH=. pytest
