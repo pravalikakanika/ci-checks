@@ -27,7 +27,7 @@ jobs:
         run: isort . --check-only
 
       - name: Run Flake8
-       run: flake8 .
+        run: flake8 .
 
       - name: Run Mypy
         run: mypy attendance notification
